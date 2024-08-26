@@ -8,6 +8,7 @@ Bu proje, bir Arduino mikrodenetleyicisi ile buton aracılığıyla girilen Mors
 - **LED Geri Bildirimi:** Her buton basışı sırasında bir LED yanar, basma süresi boyunca yanık kalır.
 - **Harf ve Sayı Çözümü:** Girilen Morse kodu, harf veya sayıya dönüştürülerek seri monitöre yazdırılır.
 - **Boşluk Ekleme:** Butona 3 saniye veya daha uzun süre basıldığında, kelimeler arası boşluk eklenir.
+[Uploading mors.ino…]()
 
 ## Donanım Gereksinimleri
 
@@ -22,4 +23,3 @@ Bu proje, bir Arduino mikrodenetleyicisi ile buton aracılığıyla girilen Mors
 
 1. **LED:** LED'in uzun bacağını (anod) 220 ohm direnç üzerinden Arduino'nun `13` numaralı pinine, kısa bacağını (katod) ise GND'ye bağlayın.
 2. **Buton:** Bir buton bacağını Arduino'nun `7` numaralı pinine, diğer bacağını GND'ye bağlayın. Ayrıca `7` numaralı pini `INPUT_PULLUP` modunda kullanarak dahili pull-up direnci aktif hale getirin.
-
