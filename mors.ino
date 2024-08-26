@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
   if (digitalRead(buttonPin) == LOW) {
-    pressStartTime = millis();  // Butona basma süresini başlat
+    pressStartTime = millis();  // Butona basma süresini başlat "delay kullanmayın kullandırtmayın kamu spotu."
     digitalWrite(ledPin, HIGH);  // LED'i yakarak geri bildirim ver
 
     while (digitalRead(buttonPin) == LOW) {
